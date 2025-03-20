@@ -43,7 +43,7 @@ def set_png_as_page_bg_for_main(png_file1):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_png_as_page_bg_for_main("https://img.freepik.com/premium-photo/abstract-blurry-wavy-background-template_111366-136.jpg?w=1060")
+set_png_as_page_bg_for_main("images/free-website-background-23.jpg")
 
 # def set_png_as_page_bg_for_sidebar(png_file1):
 #     bin_str = get_base64_of_bin_file(png_file1)
