@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 from styling import apply_portfolio_styles
 from PIL import Image
 import base64
