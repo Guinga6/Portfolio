@@ -157,7 +157,7 @@ with Education:
                '<p style="font-size:110%;"><b>Cycle D\'ingénieur Ensa Tétouan</b></p>']
     
     # Use relative paths instead of absolute paths
-    images = ["schoolimage/lycee.jpg", "schoolimage/est.jpg", "schoolimage/ensa.jpg", "schoolimage/ensa.jpg"]
+    images = ["schoolimage/lycee.jpg", "schoolimage/est.jpg", r"schoolimage/ensa.jpg", r"schoolimage/ensa.jpg"]
     
     text = ['<p style="font-size:110%"><b>Bac Sciences Physiques</b></p>', 
             '<p style="font-size:110%"><b>Génie civil </b></p>', 
