@@ -99,7 +99,7 @@ kaggle_url = "https://www.kaggle.com/aliguinga5"
 def image_to_base64(parth):
         
 # Open the image file in binary mode
-    with open("C:/Users/aligu/Desktop/else/portfolio/images/image1c.jpg", "rb") as image_file:
+    with open("images/image1c.jpg", "rb") as image_file:
         base64_string = base64.b64encode(image_file.read()).decode('utf-8')
 
 # Print the Base64 string (use it in HTML)
@@ -386,7 +386,7 @@ with Competitions:
 
         c1, c2 = st.columns((2,3))
         with c1:
-            st.image(r"C:\Users\aligu\Desktop\else\portfolio\images\hackathontange.jpg") #, width=300)
+            st.image("images/hackathontange.jpg") #, width=300)
 
         with c2:
             st.markdown('<h5>About the competition</h5>', unsafe_allow_html=True)
